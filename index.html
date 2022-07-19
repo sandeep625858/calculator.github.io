@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg">
+    <h1> Calculator Using JavaScript </h1>
+    <div class="container">
+        <span class="output" id="box">Enter any number</span>
+        <div class="row">
+            <div class="column">
+                <button id="Clear" onclick="clean()">C</button>
+                <button id="div" onclick="myfunc('/')"><i class="fa-solid fa-divide"></i></button>
+                <button id="backspace" onclick="back()"><i class="fa-solid fa-delete-left"></i></button>
+            </div>
+            <div class="column">
+                <button id="num7" onclick="myfunc('7')"><i class="fa-solid fa-7"></i></button>
+                <button id="num8" onclick="myfunc('8')"><i class="fa-solid fa-8"></i></button>
+                <button id="num9" onclick="myfunc('9')"><i class="fa-solid fa-9"></i></button>
+                <button id="div" onclick="myfunc('*')"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="column">
+                <button id="num4" onclick="myfunc('4')"><i class="fa-solid fa-4"></i></button>
+                <button id="num5" onclick="myfunc('5')"><i class="fa-solid fa-5"></i></button>
+                <button id="num6" onclick="myfunc('6')"><i class="fa-solid fa-6"></i></button>
+                <button id="minus" onclick="myfunc('-')"><i class="fa-solid fa-minus"></i></i></button>
+            </div>
+            <div class="column">
+                <button id="num1" onclick="myfunc('1')"><i class="fa-solid fa-1"></i></button>
+                <button id="num2" onclick="myfunc('2')"><i class="fa-solid fa-2"></i></button>
+                <button id="num3" onclick="myfunc('3')"><i class="fa-solid fa-3"></i></button>
+                <button id="plus" onclick="myfunc('+')"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="column">
+                <button id="num00" onclick="myfunc('00')">00</button>
+                <button id="num0" onclick="myfunc('0')"><i class="fa-solid fa-0"></i></button>
+                <button id="num." onclick="myfunc('.')">.</button>
+                <button id="equal" onclick="result()"><i class="fa-solid fa-equals"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/f75dc8e629.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
